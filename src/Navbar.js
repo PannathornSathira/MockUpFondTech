@@ -43,37 +43,37 @@ export default function Navbar() {
           </div>
 
           <nav className="hidden md:flex space-x-8">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-gray-700 hover:text-teal-600 transition-colors"
             >
               {currentContent.home}
-            </a>
-            <a
-              href="/services"
+            </Link>
+            <Link
+              to="/services"
               className="text-gray-700 hover:text-teal-600 transition-colors"
             >
               {currentContent.services}
-            </a>
-            <a
-              href="/health"
+            </Link>
+            <Link
+              to="/health"
               className="text-gray-700 hover:text-teal-600 transition-colors"
             >
               {currentContent.health}
-            </a>
-            <a
-              href="/platform"
+            </Link>
+            <Link
+              to="/platform"
               className="text-gray-700 hover:text-teal-600 transition-colors"
             >
               {currentContent.platform}
-            </a>
+            </Link>
 
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="text-gray-700 hover:text-teal-600 transition-colors"
             >
               {currentContent.about}
-            </a>
+            </Link>
           </nav>
 
           <div className="flex items-center space-x-4">

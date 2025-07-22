@@ -1,5 +1,6 @@
 import React from "react";
 import { Phone, Mail, MapPin, Shield, Truck, RefreshCw } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "./components/images/logoRemovebg.png";
 import { useLanguage } from "./LanguageContext";
 export default function Footer() {
@@ -69,28 +70,28 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a
-                  href="/health"
+                <Link
+                  to="/health"
                   className="hover:text-teal-400 transition-colors"
                 >
                   {navFooterContent.health}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/services"
+                <Link
+                  to="/services"
                   className="hover:text-teal-400 transition-colors"
                 >
                   {navFooterContent.services}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/platform"
+                <Link
+                  to="/platform"
                   className="hover:text-teal-400 transition-colors"
                 >
                   {navFooterContent.platform}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
