@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MockUpFondTech/static/css/main.f855e6bc.css",
-    "main.js": "/MockUpFondTech/static/js/main.4e23cf42.js",
+    "main.js": "/MockUpFondTech/static/js/main.69a0644f.js",
     "static/js/453.d06b439e.chunk.js": "/MockUpFondTech/static/js/453.d06b439e.chunk.js",
     "static/media/Industrial_lab.jpg": "/MockUpFondTech/static/media/Industrial_lab.0e13e07004b7da77777e.jpg",
     "static/media/healthcare_tech.jpg": "/MockUpFondTech/static/media/healthcare_tech.2b90811f79527d0cb9d7.jpg",
@@ -26,11 +26,11 @@
     "static/media/team.jpg": "/MockUpFondTech/static/media/team.b2f813e86e919d6668fb.jpg",
     "index.html": "/MockUpFondTech/index.html",
     "main.f855e6bc.css.map": "/MockUpFondTech/static/css/main.f855e6bc.css.map",
-    "main.4e23cf42.js.map": "/MockUpFondTech/static/js/main.4e23cf42.js.map",
+    "main.69a0644f.js.map": "/MockUpFondTech/static/js/main.69a0644f.js.map",
     "453.d06b439e.chunk.js.map": "/MockUpFondTech/static/js/453.d06b439e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.4e23cf42.js"
+    "static/js/main.69a0644f.js"
   ]
 }
