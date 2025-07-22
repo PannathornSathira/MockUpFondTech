@@ -11,7 +11,7 @@ import ContactUs from "./ContactUs";
 function App() {
   return (
     <LanguageProvider>
-      <Router>
+      <Router basename="/MockUpFondTech">
         <Routes>
           <Route path="/" element={<FondTechHome />} />
           <Route path="/about" element={<AboutUs />} />
